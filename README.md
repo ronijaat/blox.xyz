@@ -17,4 +17,4 @@ the optimized implementation achieves constant-time complexity (O(1)) for both g
 
 
 # 2. apicall :
-    the rate-limiting mechanism's time complexity mainly depends on the number of API calls made (in the test function) and the actual API call implementation. The token bucket management (refilling and taking tokens) has a constant time complexity (O(1)) and does not significantly impact the overall performance of the rate-limiting mechanism.
+the rate-limiting mechanism's time complexity mainly depends on the number of API calls made (in the test function) and the actual API call implementation. The token bucket management (refilling and taking tokens) has a constant time complexity (O(1)) and does not significantly impact the overall performance of the rate-limiting mechanism.
