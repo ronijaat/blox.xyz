@@ -7,7 +7,7 @@ the strategic warehouse location for a given set of factory points using the kd-
 
 
 # 2. Session id :
-    the optimized implementation achieves constant-time complexity (O(1)) for both generating unique session IDs and releasing them. The amortized complexity of expanding the bit vector during getUniqueSessionID() is also O(1) due to the doubling strategy. This makes the solution highly efficient for handling millions of users concurrently while minimizing memory usage.
+the optimized implementation achieves constant-time complexity (O(1)) for both generating unique session IDs and releasing them. The amortized complexity of expanding the bit vector during getUniqueSessionID() is also O(1) due to the doubling strategy. This makes the solution highly efficient for handling millions of users concurrently while minimizing memory usage.
 
  ## SECTION B ::::::
 
